@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+.venv/
+.venv_tts/
+env/
+tts_env/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Variables y claves privadas
+.env
+.env.*
+!.env.example
+*.key
+
+# Archivos del editor y sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Modelos y checkpoints descargados
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+*.bin
